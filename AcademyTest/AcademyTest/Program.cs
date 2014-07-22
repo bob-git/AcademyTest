@@ -10,6 +10,12 @@ namespace AcademyTest
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("current date {0}", new Program().PrintDate());
+        }
+
+        public DateTime PrintDate()
+        {
+            return DateTime.Now;
         }
     }
 }
