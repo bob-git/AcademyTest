@@ -12,7 +12,8 @@ namespace AcademyTest
         {
             Console.WriteLine("current date {0}", new Program().PrintDate());
         }
-
+        
+        // printing date (v2)
         public DateTime PrintDate()
         {
             return DateTime.Now;
